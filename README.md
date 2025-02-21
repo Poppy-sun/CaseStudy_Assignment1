@@ -55,7 +55,8 @@ The implementation is designed to handle **tall and narrow matrices** efficientl
 
   - For larger `n` (e.g., `n = 500`), communication time increases significantly, indicating a potential communication bottleneck for wide matrices.
 
-    ![image-20250221221306273](/Users/sunlishuang/Library/Application Support/typora-user-images/image-20250221221306273.png)
+ ![image](https://github.com/user-attachments/assets/1f81c8b6-6faf-4e74-9e9f-fe3c6177d056)
+
 
   #### Compute Time
 
