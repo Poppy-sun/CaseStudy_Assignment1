@@ -63,14 +63,14 @@ The implementation is designed to handle **tall and narrow matrices** efficientl
 
   - However, when `n = 500`, compute time increases sharply, suggesting that the computational load is heavily influenced by the matrix column count.
 
-    ![image-20250221221410983](/Users/sunlishuang/Library/Application Support/typora-user-images/image-20250221221410983.png)
+    ![image](https://github.com/user-attachments/assets/f3f79471-a2dc-48e9-a4cf-86509d5934d9)
 
   #### Total Execution Time
 
   - The total execution time reflects the combined impact of communication and computation times.
   - For small `n`, communication overhead is the primary factor, while for large `n`, computation time dominates.
   - This suggests potential optimizations by reducing communication costs for narrow matrices or improving computational efficiency for wide matrices.
-  - ![image-20250221221619734](/Users/sunlishuang/Library/Application Support/typora-user-images/image-20250221221619734.png)
+    ![image](https://github.com/user-attachments/assets/b390afe6-f946-493e-aedc-28481ebc64d1)
 
 
 
