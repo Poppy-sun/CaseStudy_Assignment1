@@ -55,8 +55,7 @@ The implementation is designed to handle **tall and narrow matrices** efficientl
 
   - For larger `n` (e.g., `n = 500`), communication time increases significantly, indicating a potential communication bottleneck for wide matrices.
 
- ![image](https://github.com/user-attachments/assets/1f81c8b6-6faf-4e74-9e9f-fe3c6177d056)
-
+![image](https://github.com/user-attachments/assets/7c55ee17-a97c-4a12-bf81-e05e1146f693)
 
   #### Compute Time
 
